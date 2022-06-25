@@ -1,8 +1,6 @@
 import pip._vendor.requests as requests
 import sys
 import datetime
-import sched, time
-
 
 def login(urlLogin, session, bruker, passord):
     urlSSO = "https://cloud.timeedit.net/hvl/web/timeedit/ssoResponse"
@@ -36,8 +34,6 @@ def Book(date, tidStart, tidSlutt, romID, bruker, passord):
         'url': 'https://cloud.timeedit.net/hvl/web/studbergen/ri1Q9.html#00' + romID,
         'fe3': ''
     }
-    print(payloadBook)
-
     session = requests.Session()
     responseFEIDE = session.get(urlLoginMedFeide)
     login(responseFEIDE.url, session, bruker, passord)
@@ -62,3 +58,4 @@ if __name__ == "__main__":
     bruker = sys.argv[4]
     passord = sys.argv[5]
     Book(dato, tidStart, tidSlutt, romID, bruker, passord)
+    #def Book(date, tidStart, tidSlutt, romID, bruker, passord):
