@@ -36,6 +36,7 @@ def Book(date, tidStart, tidSlutt, romID, bruker, passord):
         'url': 'https://cloud.timeedit.net/hvl/web/studbergen/ri1Q9.html#00' + romID,
         'fe3': ''
     }
+    print(payloadBook)
 
     session = requests.Session()
     responseFEIDE = session.get(urlLoginMedFeide)
