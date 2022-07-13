@@ -44,6 +44,12 @@ itillegg er det en admin side, som har tilgang å se oversikt og slette på bruk
 
 Dette har vært et krevende prosjekt som har tvunget meg å lære flere backendaspekter, og jeg er overlykkelig at det funker!
 
+skjermdump:
+
+![alt text](https://github.com/BirkJohannessen/roombot-2.0/blob/master/skjermdump/bot.png?raw=true)
+![alt text](https://github.com/BirkJohannessen/roombot-2.0/blob/master/skjermdump/overview.png?raw=true)
+![alt text](https://github.com/BirkJohannessen/roombot-2.0/blob/master/skjermdump/admin.png?raw=true)
+
 
 
 
